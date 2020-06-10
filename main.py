@@ -32,4 +32,4 @@ def send_email(recipient, subject, msg):
 
 msg = "Your new router IP is " + str(router_ip) + ", and your internal IP is " + str(ip_address)
 
-send_email('benchaffe@icloud.com', "IP Change", msg)
+send_email('Replace with the email you want your IP sent to', "IP Change", msg)
